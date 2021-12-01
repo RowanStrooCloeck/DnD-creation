@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Barbarian",
+    "bonus": ["Strength", "Constitution"]
+  },
+  {
+    "name": "Bard",
+    "bonus": ["Dexterity", "Charisma"]
+  },
+  {
+    "name": "Cleric",
+    "bonus": ["Strength", "Wisdom"]
+  },
+  {
+    "name": "Druid",
+    "bonus": ["Constitution", "Wisdom"]
+  },
+  {
+    "name": "Fighter",
+    "bonus": ["Strength", "Dexterity", "Intelligence"]
+  },
+  {
+    "name": "Monk",
+    "bonus": ["Dexterity", "Wisdom"]
+  },
+  {
+    "name": "Paladin",
+    "bonus": ["Strength", "Charisma"]
+  },
+  {
+    "name": "Ranger",
+    "bonus": ["Strength", "Dexterity", "Wisdom"]
+  },
+  {
+    "name": "Rogue",
+    "bonus": ["Dexterity", "Intelligence", "Charisma"]
+  },
+  {
+    "name": "Sorcerer",
+    "bonus": ["Constitution", "Charisma"]
+  },
+  {
+    "name": "Warlock",
+    "bonus": ["Constitution", "Charisma"]
+  },
+  {
+    "name": "Wizard",
+    "bonus": ["Dexterity", "Constitution", "Intelligence"]
+  }
+]
