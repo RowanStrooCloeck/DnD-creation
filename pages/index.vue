@@ -212,9 +212,10 @@ export default Vue.extend({
     }
   },
   async fetch() {
-    this.stats = await this.$axios.$get('/stats.json');
-    this.races = await this.$axios.$get('/races.json');
-    this.classes = await this.$axios.$get('/classes.json');
+    const baseUrl = "https://rowanstroocloeck.github.io/DnD-creation/";
+    this.stats = await this.$axios.$get(baseUrl + '/stats.json');
+    this.races = await this.$axios.$get(baseUrl + '/races.json');
+    this.classes = await this.$axios.$get(baseUrl + '/classes.json');
   },
   methods: {
     valueUp(stat: any): void {

@@ -56,13 +56,10 @@ export default {
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {
-    baseUrl: 'https://rowanstroocloeck.github.io/DnD-creation/',
-  },
+  axios: {},
 
   http: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+  build: {}
 }
